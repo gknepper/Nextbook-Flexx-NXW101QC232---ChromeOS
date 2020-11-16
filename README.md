@@ -26,9 +26,13 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 3. Mount the linux ISO and copy all files to the thumbdrive.
 4. Download UEFI 32 bit file:  **bootia32.efi** to **/efi/boot/** inside the thumbdrive.
 5. Create a **ChromeOS** directory inside the thumbdrive.
-6. Download the **chromeos-install.sh** and **install.sh** to **/ChromeOS** inside the thumbdrive.
+6. Download the **install.sh** to **/ChromeOS** inside the thumbdrive.
 7. Download the file **brunch_r86_k4.19_stable_XXXXXXXX.tar.gz** from **https://github.com/sebanc/brunch/releases** 
-8. Copy the files: **efi_legacy.img** and **efi_secure.img**
+8. Extract all files from **brunch_r86_k4.19_stable_XXXXXXXX.tar.gz** to **/ChromeOS** inside the thumbdrive.
+9. Download the Recovery file **rammus** from https://cros-updates-serving.appspot.com/ and **extract the content**
+10 Rename  **** to **rammus_recovery.bin**
+
+
 
 
 
