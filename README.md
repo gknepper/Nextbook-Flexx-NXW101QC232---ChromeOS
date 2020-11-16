@@ -67,10 +67,13 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 |Tablet keys - (Power) (Vol+) (Vol-) (Super Win)  | **OK** | Super Win key maped manually on settings to work as search | 
 
 ## Chrome OS Features:
+
+System is using 21GB by default out of 32GB of internal storage.
+
 | Feature                     | Status | Notes |
 |-----------------------------|--------|-------|
-|Sync                         | **OK** | | 
-|Linux crostini               | **OK** | | 
+|Chrome User Sync             | **OK** |  | 
+|Linux crostini               | **OK** | Tested installed WPS office for linux - https://linux.wps.com/ | 
 |Google Play                  | **OK** | | 
-|Android Apps                 | **OK** | | 
-|3D Acceleration              | ToDo   | | 
+|Android Apps                 | **OK** | Tested Spotify App | 
+|3D Acceleration              | **OK** | 40-60 FPS on http://www.quakejs.com/ | 
