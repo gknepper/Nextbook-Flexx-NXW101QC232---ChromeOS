@@ -30,20 +30,12 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 7. Download the file **brunch_r86_k4.19_stable_XXXXXXXX.tar.gz** from **https://github.com/sebanc/brunch/releases** 
 8. Extract all files from **brunch_r86_k4.19_stable_XXXXXXXX.tar.gz** to **/ChromeOS** inside the thumbdrive.
 9. Download the Recovery file **rammus** from https://cros-updates-serving.appspot.com/ and **extract the content**
-10 Rename  **** to **rammus_recovery.bin**
+10. Rename the **recovery file image (bin file)** to **rammus_recovery.bin** and copy to **/ChromeOS** inside the thumbdrive.
 
+## Boot the linux on tablet:
 
-
-
-
-
-## Download Chrome OS:
-
-* https://cros-updates-serving.appspot.com
-
-## Boot on USB Thumb drive:
-
-* Press Volume + and - and Turn on the tablet
+* Press Volume + and - and Turn on the tablet - choose the thumbdrive on ( BOOT MENU )
+* Run on terminal as root: **sh install.sh** located at **/ChromeOS** inside the thumbdrive.
 
 ## Status
 
