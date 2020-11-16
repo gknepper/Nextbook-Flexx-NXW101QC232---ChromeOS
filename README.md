@@ -17,6 +17,10 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 
 * Press Volume + and - and Turn on the tablet.
 
+* **Device Manager > Primary Video BIOS > <PCI>**
+* **Secure Boot Options  > Primary Video BIOS > <PCI>**
+
+
 ## Create a Installing USB boot drive: 
 
 **8GB minimum:** For some unknown reason, some thumb drive don't boot. If this happen, just try another one.  
@@ -41,10 +45,10 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 
 | Feature                     | Status | Notes |
 |-----------------------------|--------|-------|
-|Sleep                        | **OK** | 
-|Hibernate                    | *NO*   | BIOS Settings |
+|Sleep                        | **OK** | Working pushing (Power) button or closing the lid/keyboard - Sometimes the tablet freeze requiring a forced reboot |
+|Hibernate                    | *NO*   | BIOS Settings - **SCU > BOOT > Power Up In Standby Support=Disabled** |
 |Screen backlight control     | **OK** | | 
-|Light sensor                 | ToDo    | |
+|Light sensor                 | *NO*   | Tested on https://intel.github.io/generic-sensor-demos/sensor-info/build/bundled/ |
 |External Screen (HDMI)       | **OK** | | 
 |Built-in (Touchpad)          | **OK** | | 
 |Built-in (Touchscreen)       | **OK** | Pinch works too | 
@@ -52,13 +56,14 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 |Keyboard's Hotkeys           | **OK** | | 
 |Wireless/Wifi                | **OK** | Sometimes doesn't work, Need a reboot or Sleep and Wakeup | 
 |Sound                        | **Partial** | Internal speakers works, Internal mic don't - ToDo: Test earphone connection | 
-|Earphone plug                | *NO*  | | 
+|Earphone plug                | *NO*  | External mic via earplug also not working | 
 |MicroSD card reader          | **OK** | | 
 |Built-in front camera        | *NO*  | | 
 |Built-in rear camera         | *NO*  | | 
-|Accelerometers               | ToDo | | 
-|USB OTG                      | ToDo | | 
-|USB on keyboard              | **OK**| |
+|Accelerometers               | *NO*   | Tested on https://intel.github.io/generic-sensor-demos/sensor-info/build/bundled/ | 
+|Gyroscope                    | *NO*   | Tested on https://intel.github.io/generic-sensor-demos/sensor-info/build/bundled/ | 
+|USB OTG                      | **OK** | | 
+|USB on keyboard              | **OK** | |
 |Tablet keys - (Power) (Vol+) (Vol-) (Super Win)  | **OK** | Super Win key maped manually on settings to work as search | 
 
 ## Chrome OS Features:
