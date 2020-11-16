@@ -41,6 +41,8 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 
 | Feature                     | Status | Notes |
 |-----------------------------|--------|-------|
+|Sleep                        | **OK** | 
+|Hibernate                    | *NO*   | BIOS Settings |
 |Screen backlight control     | **OK** | | 
 |Light sensor                 | ToDo    | |
 |External Screen (HDMI)       | **OK** | | 
@@ -50,9 +52,10 @@ My notes about installing Chrome OS on Nextbook Flexx NXW101QC232
 |Keyboard's Hotkeys           | **OK** | | 
 |Wireless/Wifi                | **OK** | Sometimes doesn't work, Need a reboot or Sleep and Wakeup | 
 |Sound                        | **Partial** | Internal speakers works, Internal mic don't - ToDo: Test earphone connection | 
-|MicroSD card reader          | ToDo | | 
-|Built-in front camera        | No | | 
-|Built-in rear camera         | No | | 
+|Earphone plug                | *NO*  | | 
+|MicroSD card reader          | **OK** | | 
+|Built-in front camera        | *NO*  | | 
+|Built-in rear camera         | *NO*  | | 
 |Accelerometers               | ToDo | | 
 |USB OTG                      | ToDo | | 
 |USB on keyboard              | **OK**| |
